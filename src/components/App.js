@@ -65,7 +65,7 @@ const App = () => {
             <th>ISBN</th>
           </tr>
         </thead>
-
+<div></div>
         <tbody>
           {sortedBooks.map((book) => (
             <tr key={book.isbn}>
